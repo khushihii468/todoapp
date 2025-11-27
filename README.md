@@ -1,4 +1,4 @@
-# TodoApp - Starter Project (Resume-ready)
+# TodoApp 
 
 Simple Spring Boot Starter project demonstrating:
 - Java 17, Spring Boot 3, Spring Web, Spring Data JPA
@@ -31,5 +31,24 @@ Get todos:
 curl "http://localhost:8080/api/todos?userId=1"
 ```
 
-## What to add to your resume
-**Spring Boot To-Do & User Manager** — Built a RESTful microservice using Java & Spring Boot with JPA/Hibernate (H2, Oracle-ready), implemented CRUD APIs for users and todos, and a minimal HTML/JS UI. Tech: Java, Spring Boot, JPA, H2, Maven, Git.
+▶️ How to Run the Project
+1. Clone the repo
+git clone https://github.com/<your-username>/todoapp.git
+cd todoapp
+
+2. Run using Maven
+mvn spring-boot:run
+
+3. Open the frontend
+
+Visit:
+
+http://localhost:8080/index.html
+
+4. H2 Database Console
+
+Visit:
+
+http://localhost:8080/h2-console
+
+
